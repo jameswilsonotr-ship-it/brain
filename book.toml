@@ -1,0 +1,14 @@
+[book]
+title = "Obsidian Mirror"
+description = "A mirror of an Obsidian vault published with mdBook"
+authors = ["jameswilsonotr-ship-it"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/jameswilsonotr-ship-it/obsidian-mirror"
